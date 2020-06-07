@@ -1,11 +1,10 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace PowerExtensions.Strings
+namespace PowerExtensions
 {
     public static class StringExtensions
     {
-
         /// <summary>
         /// If the given string's length is greater then the specify length then truncate it and append the specific overflow text
         /// </summary>
